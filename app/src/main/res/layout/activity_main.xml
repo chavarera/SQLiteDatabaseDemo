@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.protutr.sqlitedemo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <Button
+            android:id="@+id/createdatabase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Database" />
+
+        <Button
+            android:id="@+id/insertintodatbase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INSERT INTO DB" />
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search Contact" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Contact" />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Contact" />
+
+        <Button
+            android:id="@+id/showall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show All Contact" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/playstore"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Download Our App From Playstore"/>
+</RelativeLayout>
